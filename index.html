@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user dashboard</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d054d0f00f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-grid">
+        <section class="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-1 w-1 user" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd" />
+              </svg>
+              <p class="number">2031820008</p>
+              <p class="level">400 LEVEL</p>
+              <a class="btn btn-white" href="#">Home</a>
+              <a class="btn" href="#">Payment</a>
+              <a class="btn" href="#">Transaction</a>
+              <a class="btn" href="#">Support</a>
+         </section>
+         <section>
+             <nav class="nav2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 bell" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+                  </svg>
+                  <p class="logout">Logout</p>
+             </nav>
+             <div class="welcome">
+                 <h2 class="welcometext">Welcome back, Abdulrazaq Sikirullah</h2>
+                 <a href="#" class="welcomebtn">View Payment Status</a>
+             </div>
+             <div class="paymentrecord" >
+                 <div id="paymentrecord">
+                    <h2 class="welcometext">Payment Report</h2>
+                    <select name="date" id="calendar">
+                        <option value="2021">2021/2022</option>
+                        <option value="2022">2022/2023</option>
+                        <option value="2023">2023/2024</option>
+                        <option value="2024">2024/2025</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="level1">400 LEVEL</p>
+                    <input type="text" class="levelinput">
+                    <p class="level1">300 LEVEL</p>
+                    <input type="text" class="levelinput">
+                    <p class="level1">200 LEVEL</p>
+                    <input type="text" class="levelinput">
+                    <p class="level1">100 LEVEL</p>
+                    <input type="text" class="levelinput">
+                </div>
+            </div>
+            <div class="iconpaid">
+                <div class="iconpaidp"></div>
+                <span class="icontext">Paid</span>
+                <div class="iconpaidn"></div>
+                <span class="icontext">Not Paid</span>
+            </div>
+            <div class="footer">
+                <div class="footerflex">
+                    <div class="successrate">
+                        <p>Payment</p>
+                        <p>Success Rate</p>
+                    </div>
+                    <img src="./images/percent-blue-grey-white-pie-chart-percentage-vector-infographics-circle-diagram-business-illustration-89960463.jpg" class="chart" alt="">
+                </div>
+                <div class="issues">
+                    <p>Payment issues</p>
+                    <p>Breaks down the reason </p>
+                    <p>Why your transaction fail</p>
+                </div>
+                <div class="footerbtn">
+                    <a href="#" class="supportbtn">Support</a>
+                </div>
+            </div>
+         </section>
+    </div>
+</body>
+</html>
